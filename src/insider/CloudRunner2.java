@@ -111,7 +111,7 @@ public class CloudRunner2 {
     public static void main(String args[]) {
         try {
             new CloudRunner2().run();
-            TransactionDatabase.MeraMain(args);
+            TransactionDatabase.RunCloudUserTransactions(args);
             
             PreviousAlgoExecution.Execute(args);
             

@@ -111,9 +111,8 @@ public class CloudRunner1 {
     public static void main(String args[]) {
         try {
             new CloudRunner1().run();
-            TransactionDatabase.MeraMain(args);
-     
-            
+            TransactionDatabase.RunCloudUserTransactions(args);
+           
             FreshnessAlgoExecution.Execute(args);
              
              
